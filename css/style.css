@@ -3,3 +3,47 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Colori */
+/* Blue #3161E0 */
+
+
+.intro{
+    background-color: #3161E0;
+    min-height: 600px;
+    padding-top: 20px;
+}
+
+.container{
+    max-width: 1500px;
+    margin: 0 auto;;
+}
+
+header{
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    background-color: white;
+    height: 100%;
+}
+
+.logo{
+    width: 50px;
+    height: 30px;
+    background-color: white;
+}
+
+.welcome{
+    width: 800px;
+    height: 400px;
+    border: 2px solid white;
+    margin: 0 auto;
+}
+
