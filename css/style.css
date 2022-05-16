@@ -12,23 +12,22 @@
     background-color: #3161E0;
     min-height: 600px;
     padding-top: 20px;
+    margin-bottom: 80px;
 }
 
 .container{
     max-width: 1500px;
-    margin: 0 auto;;
+    margin: 0 auto;
 }
 
 header{
     height: 60px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 50px;
 }
 
 nav{
-    display: flex;
-    justify-content: space-around;
     width: 50%;
     background-color: white;
     height: 100%;
@@ -47,3 +46,20 @@ nav{
     margin: 0 auto;
 }
 
+.cont-display{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.image{
+    width: 55%;
+    min-height: 600px;
+    background-color: black;
+}
+
+.column{
+    width: 40%;
+    min-height: 600px;
+    background-color: grey;
+}
